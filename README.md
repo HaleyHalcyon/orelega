@@ -1,4 +1,4 @@
-![Thumbnail graphic](kerning.png)
+![Promo graphic 1. In front a dark green background decorated with enlarged assorted letterforms, a cartoon version of myself wearing a plain orange T-shirt raises a hand to her ear, which is comically enlarged. Next to my ear, orange text says “Orelega One”. The ear of the “g” is highlighted with a yellow glow.](./svg/Poster%20Distressed.png)
 
 # About
 
@@ -8,15 +8,15 @@ The design and proportions were most strongly influenced by [_Sagona Extra Bold_
 
 Orelega supports a wide range of Latin and Cyrillic characters, giving it a relatively wide language coverage.
 
+![Promo graphic 2. Similar to Promo Graphic 1, but this one features a bunny with one ear raised. The pink, inner part of the raised ear is shaped like a quotation mark or the ear of the “g”.](./svg/Poster%20Bunny%20Distressed.png)
+
 # Name
 
-*Orelega* ([/oreˈleɡa/](https://en.wikipedia.org/wiki/Help:IPA/Esperanto)) is Esperanto for “big-eared”. It is composed of *[orel(o)-](https://en.wiktionary.org/wiki/orelo#Esperanto)* “ear”, *[-eg-](https://en.wiktionary.org/wiki/-eg-#Esperanto)* [augments degree or size], and *[-a](https://en.wiktionary.org/wiki/-a#Esperanto)* [adjective ending].
+*Orelega* ([/oreˈleɡa/](https://en.wikipedia.org/wiki/Help:IPA/Esperanto)) is Esperanto for “big-eared”. It is a regular compound word, composed of these three morphemes:
 
-This compound word has been used by at least one other Esperanto speaker before: specifically Andy West (Andreo Ŭesto), who used it in the Esperanto version of his blog _The Dismey Post (La Poŝto Dismeo)_ to describe Bing Crosby, the singer of _White Christmas_:
-
-> _[Dank’ al iu orelega kantistiĉo de la 1940-oj, iksmaso estas asociita inter usonanoj kun multan neĝon, kvankam dum pasintaj jaroj la decembro estas\[sic\] varma kaj malseka.](https://en.wiktionary.org/wiki/Citations:kantisti%C4%89o)_
-
-> Thanks to a certain male singer with big ears of the 1940s, Xmas is associated among Usonians with lots of snow, even though during past years December is\[sic\] warm and wet.
+1. *[orel(o)](https://en.wiktionary.org/wiki/orelo#Esperanto)* “ear”
+2. *[-eg-](https://en.wiktionary.org/wiki/-eg-#Esperanto)* [augments degree or size]
+3. *[-a](https://en.wiktionary.org/wiki/-a#Esperanto)* [adjective ending].
 
 ## Why “one”?
 
@@ -26,7 +26,31 @@ Other Google Fonts witha name ending in “One” tend to be very bold or very t
 
 One example of a font that was updated in this exact way is _[Fredoka](https://fonts.google.com/specimen/Fredoka)_. It was first published as _Fredoka One_ in a single bold weight in 2015. It was removed from Google Fonts in 2021, replaced with a variable font _Fredoka_ with a weight range from 300 (Light) to 700 (Bold) and a width range from 75 (condensed) to 125 (expanded), with “_Fredoka_ Bold” being equivalent to “_Fredoka One_ Regular, width 100”.
 
+## Attested example of _orelega_ as an Esperanto word
+
+This compound word has been used by at least one other Esperanto speaker before: specifically Andy West (Andreo Ŭesto), who used it in the Esperanto version of his blog _The Dismey Post (La Poŝto Dismeo)_ to describe Bing Crosby, the singer of _White Christmas_:
+
+> _Dank’ al iu **orelega** kantistiĉo de la 1940-oj, iksmaso estas asociita inter usonanoj kun multan neĝon, kvankam dum pasintaj jaroj la decembro estas\[sic\] varma kaj malseka. [(source)](https://en.wiktionary.org/wiki/Citations:kantisti%C4%89o)_
+
+> Thanks to a certain **big-eared** male singer of the 1940s, Xmas is associated among Usonians with lots of snow, even though during past years December is\[sic\] warm and wet.
+
+## Etymological gushing
+
+The Esperanto word for “ear”, _orelo_, derives from French _oreille_ (“ear”), which is in turn derived from Latin _auricula_ (“ear”). Therefore, it is related to:
+- **English:** _auricle_ or _auricula_ (anatomical word for “the external part of the ear”) and _aural_ (related to hearing)
+- **Spanish:** _oreja_ and _aurícula_ (“ear \[auricle\]”)
+- **Portuguese:** _orelha_ (“ear \[auricle\]”)
+- **Italian:** _orecchio_ (“ear”)
+
+And because the base form of _auricula_ is _auris_, and _auris_ ultimately derives from Proto-Indo-European \*_h₂ṓws_, it’s also distantly related to:
+
+- **Proto-West Germanic** _\*auʀā_ (whence Old English _ēare_, whence English _ear_; whence German _Ohr_; whence Dutch _oor_; whence Yiddish _אויער_)
+- **Ancient Greek:** _οὖς_ (whence Modern Greek _αφτί_)
+- **Old Church Slavonic:** _оухо_ (whence the word for “ear” in [most if not all Slavic languages](https://slovosbor.online/en/lexicon/isv/uho))
+
 # Non-exhaustive list of differences from _Sagona_:
+
+![Kerning preview graphic.](./kerning.png)
 
 * **Latin:**
   * the completely slabby serifs without round corners, except for very large serifs in “E”, “F”, “T”, and “Z”
