@@ -1,0 +1,21 @@
+StartChar: u10462
+Encoding: 66658 66658 605
+Width: 1520
+UnlinkRmOvrlpSave: 1
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+1420 1840 m 5
+ 1420 1520 l 5
+ 1260 1520 l 5
+ 740 -320 l 5
+ 980 -320 l 5
+ 980 -640 l 5
+ 20 -640 l 5
+ 20 -320 l 5
+ 180 -320 l 5
+ 790 1840 l 5
+ 1420 1840 l 5
+EndSplineSet
+EndChar
