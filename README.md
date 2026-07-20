@@ -1,4 +1,4 @@
-![Promo graphic 1. In front a dark green background decorated with enlarged assorted letterforms, a cartoon version of myself wearing a plain orange T-shirt raises a hand to her ear, which is comically enlarged. Next to my ear, orange text says “Orelega One”. The ear of the “g” is highlighted with a yellow glow.](./svg/Poster%20Distressed.png)
+![Promo graphic. In front a dark green background decorated with enlarged assorted letterforms, a cartoon version of myself wearing a plain orange T-shirt raises a hand to her ear, which is comically enlarged. Next to my ear, orange text says “Orelega One”. The ear of the “g” is highlighted with a yellow glow.](./svg/Poster%20Distressed.png)
 
 # About
 
@@ -8,7 +8,7 @@ The design and proportions were most strongly influenced by [_Sagona Extra Bold_
 
 Orelega supports a wide range of Latin and Cyrillic characters, giving it a relatively wide language coverage.
 
-![Promo graphic 2. Similar to Promo Graphic 1, but this one features a bunny with one ear raised. The pink, inner part of the raised ear is shaped like a quotation mark or the ear of the “g”.](./svg/Poster%20Bunny%20Distressed.png)
+![Promo graphic. This one features a bunny with one ear raised. The pink, inner part of the raised ear is shaped like a quotation mark or the ear of the “g”.](./svg/Poster%20Bunny%20Distressed.png)
 
 # Non-exhaustive list of differences from _Sagona_:
 
@@ -49,13 +49,15 @@ However, it lacks many extra features of Sagona, like full weights, italics, swa
 2. *[-eg-](https://en.wiktionary.org/wiki/-eg-#Esperanto)* [augments degree or size]
 3. *[-a](https://en.wiktionary.org/wiki/-a#Esperanto)* [adjective ending].
 
+If you wrote _la tiparo orelega_ (instead of _la tiparo Orelega_), it would literally mean “the font with big ears”.
+
 ## Why “one”?
 
 The “One” was added to the end of the name by the Google Fonts team, and it denotes that **this font comes in one weight only, which is _not_ the Regular weight**.
 
 Other Google Fonts with a name ending in “One” tend to be very bold or very thin. Due to its thickness, Orelega One is best suited for subheadings and logos, and may cause fatigue when used for body text (like this). If I were to update Orelega to add a Regular weight, _Orelega One_ would soon be withdrawn from public availability and replaced with a new font named just _Orelega_.
 
-One example of a font that was updated in this exact way is _[Fredoka](https://fonts.google.com/specimen/Fredoka)_. It was first published as _Fredoka One_ in a single bold weight in 2015. It was removed from Google Fonts in 2021, replaced with a variable font _Fredoka_ with a weight range from 300 (Light) to 700 (Bold) and a width range from 75 (condensed) to 125 (expanded), with “_Fredoka_ Bold” being equivalent to “_Fredoka One_ Regular, width 100”.
+One example of a font that was updated in this exact way is _[Fredoka](https://fonts.google.com/specimen/Fredoka)_. It was first published as _Fredoka One_ in a single bold weight in 2015. It was removed from Google Fonts in 2021, replaced with a variable font _Fredoka_ with a weight range from 300 (Light) to 700 (Bold) and a width range from 75 (condensed) to 125 (expanded), with “_Fredoka_ Bold, width 100” being equivalent to “_Fredoka One_ Regular”.
 
 ## Attested example of _orelega_ as an Esperanto word
 
@@ -67,13 +69,14 @@ This compound word has been used by at least one other Esperanto speaker before:
 
 ## Etymological gushing
 
-The Esperanto word for “ear”, _orelo_, derives from French _oreille_ (“ear”), which is in turn derived from Latin _auricula_ (“ear”). Therefore, it is related to:
+The Esperanto word for “ear”, _orelo_, derives from **French** _oreille_ (“ear”), which is in turn derived from **Latin** _auricula_ (“ear”). Therefore, it is related to:
 - **English:** _auricle_ or _auricula_ (anatomical word for “the external part of the ear”) and _aural_ (related to hearing)
 - **Spanish:** _oreja_ and _aurícula_ (“ear \[auricle\]”)
+  - There’s a single-word Spanish translation for Esperanto _orelega_, which is _orejón_ / _orejona_!
 - **Portuguese:** _orelha_ (“ear \[auricle\]”)
 - **Italian:** _orecchio_ (“ear”)
 
-And because the base form of _auricula_ is _auris_, and _auris_ ultimately derives from Proto-Indo-European \*_h₂ṓws_, it’s also distantly related to:
+And because the base form of _auricula_ is _auris_, and _auris_ ultimately derives from **Proto-Indo-European** \*_h₂ṓws_, it’s also distantly related to:
 
 - **Proto-West Germanic** _\*auʀā_ (whence Old English _ēare_, whence English _ear_; whence German _Ohr_; whence Dutch _oor_; whence Yiddish _אויער_)
 - **Ancient Greek:** _οὖς_ (whence Modern Greek _αφτί_)
