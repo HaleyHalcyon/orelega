@@ -2,7 +2,7 @@
 
 # About
 
-**Orelega** (pronounced in English: [OR-ə-LAY-gə](https://en.wikipedia.org/wiki/Help:Pronunciation_respelling_key)) is a heavy slab-serif font with large “ears”—which are, typographically speaking, the stroke on the top right of the lowercase “g”. Orelega’s exaggerated, antenna-like ear seems to perk up to hear what you just said. Other glyphs have similarly large ball terminals, such as “c”, “f”, “G”, “J”, “Q”, “r”, “y”, “2”, “5”, “$”, “£”, “€”, and “&”. Orelega blends the time-tested dignity of Clarendon with playful features, reminiscent of children’s picture books frequented by Century Schoolbook.
+**Orelega** (pronounced in English: [OR-ə-LAY-gə](https://en.wikipedia.org/wiki/Help:Pronunciation_respelling_key)) is a heavy slab-serif font with a large “ear”—which is, typographically speaking, the stroke on the top right of the lowercase “g”. Orelega’s exaggerated, antenna-like ear seems to perk up to hear what you just said. Other glyphs have similarly large ball terminals, such as “c”, “f”, “G”, “J”, “Q”, “r”, “y”, “2”, “5”, “$”, “£”, “€”, and “&”. Orelega blends the time-tested dignity of Clarendon with playful features, reminiscent of children’s picture books frequented by Century Schoolbook.
 
 The design and proportions were most strongly influenced by [_Sagona Extra Bold_ by René Bieder](https://www.myfonts.com/fonts/rene-bieder/sagona/), which I first saw in [_You Don’t Know Jack: Full Stream_](https://www.jackboxgames.com/games/you-dont-know-jack-full-stream). However, Orelega also breaks from its influence in many ways, such as removing the rounded inside corners of serifs (except in very large serifs in “L”, “F”, and “T”), giving the “Q” a new cursive-inspired tail, and designing a new “&” from the ground up.
 
