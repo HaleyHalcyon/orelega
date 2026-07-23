@@ -1,4 +1,4 @@
-![Promo graphic. In front a dark green background decorated with enlarged assorted letterforms, a cartoon version of myself wearing a plain orange T-shirt raises a hand to her ear, which is comically enlarged. Next to my ear, orange text says “Orelega One”. The ear of the “g” is highlighted with a yellow glow.](./svg/Poster%20Distressed.png)
+![Promo graphic. In front a white background with enlarged assorted letterforms in pastel colors, a white cartoon rabbit raises one large ear, whose shape resembles the ear of the lowercase “g” or a  quotation mark. Next to my ear, orange text says “Orelega One”. The ear of the “g” and of the bunny is highlighted with action lines.](./svg/Poster%20Bunny%20Cartoon.png)
 
 # About
 
@@ -8,7 +8,7 @@ The design and proportions were most strongly influenced by [_Sagona Extra Bold_
 
 Orelega supports a wide range of Latin and Cyrillic characters, giving it a relatively wide language coverage.
 
-![Promo graphic. This one features a bunny with one ear raised. The pink, inner part of the raised ear is shaped like a quotation mark or the ear of the “g”.](./svg/Poster%20Bunny%20Distressed.png)
+![Promo graphic. In a room with beige walls, a smiling mid-century housewife raises her hand next to her enlarged ear. The text next to her reads “You haven’t heard of the Orelega font?”. Below it is a specimen of the Orelega font including internationalized Latin letters.](./svg/Poster%20Tradwife.png)
 
 # Non-exhaustive list of differences from _Sagona_:
 
@@ -40,6 +40,8 @@ Orelega supports a wide range of Latin and Cyrillic characters, giving it a rela
 * traditional curly diagonals for «Жж Кк Яя» and trapezoidal flat-top form for «Дд Лл»
 
 However, it lacks many extra features of Sagona, like full weights, italics, swash letters, small caps, all-caps alternates, and other stylistic alternates.
+
+![Promo graphic. In front a dark green background decorated with enlarged assorted letterforms, a cartoon version of myself wearing a plain orange T-shirt raises a hand to her ear, which is comically enlarged. Next to my ear, orange text says “Orelega One”. The ear of the “g” is highlighted with a yellow glow.](./svg/Poster%20Distressed.png)
 
 # Name
 
@@ -81,6 +83,8 @@ And because the base form of _auricula_ is _auris_, and _auris_ ultimately deriv
 - **Proto-West Germanic** _\*auʀā_ (whence Old English _ēare_, whence English _ear_; whence German _Ohr_; whence Dutch _oor_; whence Yiddish _אויער_)
 - **Ancient Greek:** _οὖς_ (whence Modern Greek _αφτί_)
 - **Old Church Slavonic:** _оухо_ (whence the word for “ear” in [most if not all Slavic languages](https://slovosbor.online/en/lexicon/isv/uho))
+
+![Promo graphic. This one features a bunny with one ear raised. The pink, inner part of the raised ear is shaped like a quotation mark or the ear of the “g”.](./svg/Poster%20Bunny%20Distressed.png)
 
 # Edit/Build instructions
 

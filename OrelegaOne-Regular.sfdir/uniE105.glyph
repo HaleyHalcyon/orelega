@@ -28,8 +28,7 @@ SplineSet
 EndSplineSet
 Refer: 83 180 N 1 0 0 1 1060 0 2
 Refer: 136 237 N 1 0 0 1 0 0 2
-LCarets2: 1 0
 Ligature2: "Dutch IJ/ij ligatures-1" iacute j
+LCarets2: 1 0
 Ligature2: "'liga' +ahluljBuVAhbVwAA in +MOkwxjDzZYdbVwAA lookup 0-1" ij acutecomb
-Ligature2: "'liga' +ahluljBuVAhbVwAA in +MOkwxjDzZYdbVwAA lookup 0-1" ij acute
 EndChar
