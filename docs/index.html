@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Orelega font</title>=
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Pacifico&display=swap" rel="stylesheet">
+  <style>
+    @font-face {
+      font-family: "_Orelega";
+      src: url("./Orelega-Bold.woff2");
+    }
+    html, body {
+      font-family: "_Orelega", serif;
+      margin: 0;
+      width: auto;
+      height: 100dvh;
+      position: relative;
+      overflow: hidden;
+    }
+    #scroller {
+      position: absolute;
+      inset: 0;
+      overflow-y: scroll;
+      scroll-snap-type: y mandatory;
+    }
+    section {
+      text-align: right;
+      overflow: hidden;
+      width: 100%;
+      height: 100svh;
+      scroll-snap-align: start;
+      position: relative;
+    }
+    section:nth-child(2n) {
+      background: red;
+    }
+    /* common */
+    #tradwife {
+      background-image: url("img/tradwife_bg.svg");
+      background-size: cover;
+      background-position: center;
+    }
+    #tradwifeLang, #tradwifeLangSel {
+      font-family: "Oswald";
+      font-size: 1.15rem;
+    }
+
+    #bunny, #logotype {
+      position: absolute;
+      display: flex;
+      justify-content: stretch;
+      align-items: stretch;
+    }
+    .relativizer {
+      position: relative;
+      width: inherit;
+      height: inherit;
+    }
+    .main, .sub {
+      position: absolute;
+      height: auto;
+    }
+    @keyframes bounceZoom {
+      from {
+        scale: 1.0;
+      }
+      to {
+        scale: 1.15;
+      }
+    }
+    .relativizer > .main {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: auto;
+    }
+    #bunny > .relativizer > .sub {
+      right: -30%;
+      top: -2%;
+      width: 50%;
+      transform-origin: -20% 80%;
+      animation: 600ms 0ms infinite alternate both ease-in-out bounceZoom;
+    }
+    #logotype > .relativizer > .sub {
+      width: 18.75%;
+      right: 9.7%;
+      top: -20.2%;
+      transform-origin: 40% 110%;
+      animation: 600ms 0ms infinite alternate both ease-in-out bounceZoom;
+    }
+    #tradwifeText {
+      position: absolute;
+      inset: 0 12px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+      text-align: center;
+    }
+    #heard {
+      max-width: 100%;
+      flex: 0 0 auto;
+      font-family: "Pacifico", serif;
+      color: rgb(61 51 37);
+      line-height: 1.0;
+    }
+    #heard > div {
+      max-width: 100%;
+      position: relative;
+      z-index: 2;
+      margin: 0.5em 0;
+      text-shadow: 0 0 0.05em rgb(245 222 190);
+    }
+    #heard > div:nth-child(2) {
+      margin: -0.25em 0em;
+      z-index: 1;
+      font-family: "_Orelega", serif;
+      font-size: 3em;
+      color: rgb(180 75 68);
+      letter-spacing: -0.02em;
+    }
+    #heardExample {
+      flex: 0 0 auto;
+      color: rgb(45 78 73);
+      text-shadow: 0 0 0.05em rgb(245 222 190);
+      word-break: break-word;
+      hyphenate-character: "";
+    }
+    #heardExample > p {
+      margin: 0 0.25em;
+    }
+
+    /* portrait orientation only */
+    #bunny {
+      left: 5vw;
+      top: calc(40vh - 40vw);
+      width: 50vw;
+      height: 100vw;
+    }
+    #logotype {
+      left: 50vw;
+      transform: translateX(-50%);
+      bottom: calc(40vh - 40vw);
+      /* 8:3 */
+      width: 80vw;
+      height: 30vw;
+    }
+    #tradwifePortrait {
+      position: absolute;
+      inset: auto calc(75vw - 31.25svh) 0 auto;
+      height: 100svh;
+      width: 62.5svh;
+    }
+    #tradwifeText {
+      left: calc(25vw + 12.5svh);
+      /* width of this container */
+      --w: calc(75vw - 12.5svh);
+    }
+    #heard {
+      font-size: calc(var(--w) * 0.07);
+    }
+    #heardExample {
+      font-size: 4svh;
+    }
+    @media (min-aspect-ratio: 1/1) {
+      /* landscape orientation */
+      #bunny {
+        left: calc(10vw - 10vh);
+        top: 5vh;
+        width: 50vh;
+        height: 100vh;
+      }
+      #logotype {
+        left: auto;
+        transform: none;
+        right: 3vh;
+        bottom: 3vh;
+        /* 8:3 */
+        width: min(64vw, 160vh);
+        height: min(24vw, 60vh);
+      }
+      #tradwifeText {
+        --w: 70svh;
+      }
+    }
+  </style>
+  <script>
+    // TODO:
+    // - es-419 currency symbols
+    // - isv-Latn Ȯȯ
+    // - nl Ĳ with combining acute
+    // - nv combining acutes on ogonek letters
+    // - ru ruble
+    // - ru combining acutes on vowels
+    // - tr turkish lira
+    // - uk hryvnia
+    // ₡₲ȮȯĲ́Ą́Ę́Į́Ǫ́ą́ę́įǫ́А́Е́И́О́У́Ы́Э́Ю́Я́а́е́и́о́у́ы́э́ю́я́₺₴
+const s = {
+  "bg": ["„Не си ли чувала за шрифта ", "’Орелега’", "?“", "АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЬЮЯ абвгдежзийклмнопрстуфхцчшщъьюя лв. 0123456789 ,.;:!?“-‘–’—”"],
+  "cs": ["„Ještě jsi neslyšela o písmu ", "‚Orelega‘", "?“", "AÁBCČDĎEÉĚFGHIÍJKLMNŇOÓPQRŘSŠTŤUÚŮVWXYÝZŽ aábcčdďeéěfghiíjklmnňoópqrřsštťuúůvwxyýzž Kč 0123456789 ,.;:!?„-‚–‘—“"],
+  "da": ["»Har du ikke hørt om skrifttypen ", "›Orelega‹", "?«", "ABCDEFGHIJKLMNOPQRSTUVWXYZÆØÅ abcdefghijklmnopqrstuvwxyzæøå kr. € 0123456789 ,.;:!?»-‚–‘—«"],
+  "de": ["„Hast du nicht von der ", "‚Orelega‘", "-Schrift gehört?“", "ABCDEFGHIJKLMNOPQRSTUVWXYZÄÖÜẞ abcdefghijklmnopqrstuvwxyzäöüß € ¢ 0123456789 ,.;:!?„-‚–‘—“"],
+  "en-US": ["“You haven’t heard of the ", "‘Orelega’", " font?”", "ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz Noël façade piñata brûlée tiramisù Tromsø pączki Łukasz Žižek $ ¢ £ € 0123456789 ,.;:!?“-‘–’—”"],
+  "eo": ["“Ĉu vi ne jam aŭditas pri la tiparo ", "‘Orelega’", "?”", "ABCĈDEFGĜHĤIJĴKLMNOPRSŜTUŬVZ abcĉdefgĝhĥijĵklmnoprsŝtuŭvz QWXY qwxy ₷ 0123456789 ,.;:!?“-‘–’—”"],
+  "es-419": ["“¿No has oído sobre la fuente ", "‘Orelega’", "?”", "ABCDEFGHIJKLMNÑOPQRSTUVWXYZ abcdefghijklmnñopqrstuvwxyz ÁÇÉÍÓÚÜ áçéíóúü $ ¢ ₡ ₲ B/. Bs S/ 0123456789 ,.;:¡!¿?“-‘–’—”"],
+  "fr": ["« Tu n’as pas entendu parler de la police ", "“Oréléga”", " ? »", "ABCDEFGHIJLMNOPQRSTUVXYZ abcdefghijlmnopqrstuvxyz ÂÇÉÏKÙW âçéïkùw € ¢ 0123456789 ,.;:!?«-‹–›—»"],
+  "hu": ["„Még nem hallottál az ", "»Orelega«", " betűtípusról?”", "AÁBCDEÉFGHIÍJKLMNOÓÖŐPQRSTUÚÜŰVWXYZ aábcdeéfghiíjklmnoóöőpqrstuúüűvwxyz Ft 0123456789 ,.;:!?„-»–«—”"],
+  "isv-Latn": ["“Či ti ne jesi uslyšala ob fontu ", "‘Orelega’", "?”", "ABCČDEĚFGHIJKLMNOPRSŠTUVYZŽ abcčdeěfghijklmnoprsštuvyzž QWXĘŲÅĖȮĆĐĹŃŔT́D́ŚŹ qwxęųåėȯćđĺńŕt́d́śź 0123456789 ,.;:!?“-‘–’—”"],
+  "isv-Cyrl": ["“Чи ти не јеси услышала об фонту ", "‘Орелега’", "?”", "АБВГДЕЄЖЗИЫЈКЛЉМНЊОПРСТУФХЦЧШ абвгдеєжзиыјклљмнњопрстуфхцчш 0123456789 ,.;:!?“-‘–’—”"],
+  "nl": ["“Heb je nog niet van het lettertype ", "‘Orelega’", " gehoord?”", "ABCDEFGHIJKLMNOPRSTUVWĲZ abcdefghijklmnoprstuvwĳz ÉËĲ́QXY éëĳ́qxy € ¢ 0123456789 ,.;:!?“-‘–’—”"],
+  "nv": ["“", "«Orelega»", " bee akʼeʼelchiʼí biniiyé doo dííshį́į́ʼ da?”", "ʼAÁĄĄ́BCDDEÉĘĘ́GHIIÍĮĮ́JKŁLMNOÓǪǪ́STWXYZ ʼaáąą́bcddeéęę́ghiiíįį́jkłlmnoóǫǫ́stwxyz $ ¢ 0123456789 ,.;:!?“-«–»—”"],
+  "pl": ["„Jeszcze nie słyszałaś o kroju pisma ", "»Orelega«", "?”", "AĄBCĆDEĘFGHIJKLŁMNŃOÓPRSŚTUVWYZŹŻ aąbcćdeęfghijklłmnńoóprsśtuvwyzźż QVX qvx zł € ¢ 0123456789 ,.;:!?„-‚–’—”"],
+  "pt-BR": ["“Você ainda não ouviu falar da fonte ", "‘Orelega’", "?”", "ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz ÀÇÊÏÓÙ àçêïóù Rs 0123456789 ,.;:!?“-‘–’—”"],
+  "ru": ["— Разве ты не слышала о шрифте ", "«Орэлега»", "?", "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ абвгдеёжзийклмнопрстуфхцчшщъыьэюя А́Е́И́О́У́Ы́Э́Ю́Я́ а́е́и́о́у́ы́э́ю́я́ ₽ 0123456789 ,.;:!?«-“–”—»"],
+  "sr-Latn": ["„Zar nisi čula za font ", "’Orelega’", "?”", "ABCČĆDĐEFGHIJKLMNOPRSŠTUVZŽ abcčćdđefghijklmnoprsštuvzž QWXY qwxy DIN 0123456789 ,.;:!?„-’–’—”"],
+  "sr-Cyrl": ["„Зар ниси чула за фонт ", "’Орелега’", "?”", "АБВГДЂЕЖЗИЈКЛЉМНЊОПРСТЋУФХЦЧЏШ абвгдђежзијклљмнњопрстћуфхцчџш дин 0123456789 ,.;:!?„-’–’—”"],
+  "tok-Latn": ["sina pini ala pini sona e sitelen ", "Kute Suli", "?", "aeioujklmnpst AEIOUJKLMNPST ,.;:!?“-‘–’—”"],
+  "tr": ["“", "‘Orelega’", " yazıtipini daha duymadın mıydın?”", "ABCÇDEFGĞHIİJKLMNOÖPRSŞTUÜVYZ abcçdefgğhıijklmnoöprsştuüvyz ÂÎÛ âîû  ₺ 0123456789 ,.;:!?“-‘–’—”"],
+  "uk": ["«Хіба ти не чула про шрифт ", "‹Орелега›", "?»", "АБВГҐДЕЄЖЗИІЇЙКЛМНОПРСТУФХЦЧШЩЬЮЯ абвгґдеєжзиіїйклмнопрстуфхцчшщьюя ₴ 0123456789 ,.;:!?«-‹–›—»"],
+};
+function changeLang(event) {
+  console.log(event);
+  const el0 = document.getElementById("heard");
+  el0.children[0].innerText = s[event.explicitOriginalTarget.value][0];
+  el0.children[1].innerText = s[event.explicitOriginalTarget.value][1];
+  el0.children[2].innerText = s[event.explicitOriginalTarget.value][2];
+  document.getElementById("heardExample").innerText = s[event.explicitOriginalTarget.value][3];
+}
+  </script>
+</head>
+<body>
+  <div id="scroller">
+    <section id="hero">
+      <div id="bunnyLetters"></div>
+      <div id="bunny">
+        <div class="relativizer">
+          <img class="main" src="img/bunny_portrait.svg" width="256" height="512" alt="">
+          <img class="sub" src="img/bunny_action_lines.svg" width="120" height="120" alt="">
+        </div>
+      </div>
+      <div id="logotype">
+        <div class="relativizer">
+          <img class="main" src="img/logotype.svg" width="320" height="120" alt="Orelega One">
+          <img class="sub" src="img/logotype_action_lines.svg" width="64" height="64" alt="">
+        </div>
+      </div>
+    </section>
+    <section id="tradwife">
+      <img id="tradwifePortrait" src="img/tradwife_portrait.svg" width="320" height="512" alt="">
+      <div id="tradwifeText">
+        <div id="tradwifeLang">
+          <label for="tradwifeLangSel">Select a language:</label>
+          <select id="tradwifeLangSel" autocomplete="off" oninput="changeLang(event)">
+            <option value="bg">български 🤖</option>
+            <option value="cs">čeština 🤖</option>
+            <option value="da">dansk 🤖</option>
+            <option value="de">Deutsch</option>
+            <option selected value="en-US">English</option>
+            <option value="eo">Esperanto</option>
+            <option value="es-419">español latino</option>
+            <option value="fr">français</option>
+            <option value="hu">magyar 🤖</option>
+            <option value="isv-Cyrl">Меджусловјанскы (Кирилица)</option>
+            <option value="isv-Latn">Medžuslovjansky (Latinica)</option>
+            <option value="nl">Nederlands 🤖</option>
+            <option value="nv">Diné bizaad 🤖</option>
+            <option value="ru">русский</option>
+            <option value="pl">polski 🤖</option>
+            <option value="pt-BR">português brazileiro</option>
+            <option value="sr-Cyrl">српски (ћирилица) 🤖</option>
+            <option value="sr-Latn">srpski (latinica) 🤖</option>
+            <option value="tok-Latn">toki pona (sitelen Lasina)</option>
+            <option value="tr">Türkçe 🤖</option>
+            <option value="uk">українська 🤖</option>
+          </select><br>
+          <span>(🤖: machine translation, not manually verified)</span>
+        </div>
+        <div id="heard">
+          <div>“You haven’t heard of the</div>
+          <div>‘Orelega’</div>
+          <div>font?”</div>
+        </div>
+        <div id="heardExample">
+          <p>ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz Noël façade piñata brûlée tiramisù Tromsø pączki Łukasz Žižek $ ¢ £ € 0123456789 ,.;:!?“-‘–’—”</p>          
+        </div>
+      </div>
+    </section>
+  </div>
+</body>
