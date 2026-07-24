@@ -28,5 +28,5 @@ SplineSet
  1382 1350 l 1
  1259 1476 1171 1509 1045 1509 c 0
 EndSplineSet
-Ligature2: "'rlig' shavian ligatures-1" u1045C vs01
+Ligature2: "'rlig' shavian ligatures-1" u10452 vs01
 EndChar
