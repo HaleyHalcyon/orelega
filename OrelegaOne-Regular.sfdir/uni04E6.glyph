@@ -1,7 +1,8 @@
 StartChar: uni04E6
 Encoding: 1254 1254 566
 Width: 2720
-Flags: H
+HStem: 2640 640<659.115 1100.88 1619.12 2060.88>
+VStem: 560 640<2739.12 3180.88> 1520 640<2739.12 3180.88>
 LayerCount: 2
 Fore
 Refer: 93 168 N 1 0 0 1 480 640 2

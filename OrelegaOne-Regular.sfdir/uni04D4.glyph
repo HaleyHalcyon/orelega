@@ -2,8 +2,13 @@ StartChar: uni04D4
 Encoding: 1236 1236 548
 Width: 3900
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 0 320<40 360 800 1320 1560 1880 2520 3352.16> 640 320<760 2000> 960 320<2520 2880> 2160 320<1160 1560 2520 3312.16>
+VStem: 1880 120<640 960> 1880 640<320 640 1280 2160> 2880 320<600 960 1280 1640> 3360 360<1680 2130.52> 3400 360<349.48 800>
+AnchorPoint: "ogonek0" 3540 80 basechar 0
+AnchorPoint: "bottom0" 2204 80 basechar 0
+AnchorPoint: "top0" 2200 2560 basechar 0
 LayerCount: 2
 Fore
-Refer: 294 198 S 1 0 0 1 0 0 2
+Refer: 294 198 N 1 0 0 1 0 0 2
 EndChar

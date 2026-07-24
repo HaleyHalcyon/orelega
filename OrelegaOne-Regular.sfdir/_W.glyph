@@ -5,8 +5,8 @@ VWidth: 0
 UnlinkRmOvrlpSave: 1
 Flags: W
 HStem: 0 21G<1159.53 1560.47 2639.53 3040.47> 2160 320<80 360 1120 1360 1600 1960 2600 2880 3120 3440 3840 4120>
-AnchorPoint: "cedilla" 2124 80 basechar 0
-AnchorPoint: "top" 2160 2560 basechar 0
+AnchorPoint: "bottom0" 2124 80 basechar 0
+AnchorPoint: "top0" 2160 2560 basechar 0
 LayerCount: 2
 Fore
 SplineSet

@@ -1,11 +1,11 @@
 StartChar: uni04A3
 Encoding: 1187 1187 529
 Width: 2280
-Flags: H
+HStem: -800 153<382.57 558.16>
+VStem: 320 510<-453 -216> 592 208<-453 -187>
 LayerCount: 2
 Fore
 Refer: 582 716 N 1 0 0 1 1760 0 2
 Refer: 451 1085 N 1 0 0 1 0 0 3
-Validated: 5
 Decomposition: "+BD0DRQAA"
 EndChar

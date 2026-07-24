@@ -2,6 +2,8 @@ StartChar: u1049E
 Encoding: 66718 66718 651
 Width: 1692
 Flags: HW
+AnchorPoint: "top0" 892 1920 basechar 0
+AnchorPoint: "bottom0" 928 80 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -19,10 +21,11 @@ SplineSet
  1552 1520 l 2
  1364 1520 1273 1356 1273 1205 c 3
  1273 1044 1295 942 1392 824 c 1
- 986 909 l 5
+ 986 909 l 1
  848 988 712 1107 712 1301 c 3
  712 1609 880 1840 1472 1840 c 2
  1640 1840 l 25
  1640 1520 l 25
 EndSplineSet
+Ligature2: "'rlig' shavian ligatures-1" u1047A vs01
 EndChar

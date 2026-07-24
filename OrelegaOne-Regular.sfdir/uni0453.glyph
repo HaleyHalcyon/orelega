@@ -1,7 +1,8 @@
 StartChar: uni0453
 Encoding: 1107 1107 485
 Width: 1800
-Flags: H
+HStem: 1996 640
+VStem: 451.5 897
 AnchorPoint: "ogonek" 1280 80 basechar 0
 LayerCount: 2
 Fore

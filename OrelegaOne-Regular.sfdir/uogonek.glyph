@@ -3,12 +3,11 @@ Encoding: 371 371 279
 Width: 2280
 VWidth: 0
 UnlinkRmOvrlpSave: 1
-Flags: H
 HStem: -760 232<1897 2200> -40 360<651.063 1229.9> 0 320<2000 2200> 1520 320<80 280 1240 1440>
 VStem: 280 560<378.991 1520> 1436 564<469.944 1520> 1560 280<-572.151 -49.8567> 1880 640<-542.737 -219.115>
-AnchorPoint: "top" 1130 1920 basechar 0
-AnchorPoint: "cedilla" 1164 80 basechar 0
-AnchorPoint: "ogonek" 2000 -720 basechar 0
+AnchorPoint: "top0" 1130 1920 basechar 0
+AnchorPoint: "bottom0" 1164 80 basechar 0
+AnchorPoint: "ogonek0" 2000 -720 basechar 0
 LayerCount: 2
 Fore
 Refer: 64 731 N 1 0 0 1 1480 0 2

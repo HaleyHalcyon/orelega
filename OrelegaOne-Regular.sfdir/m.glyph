@@ -7,8 +7,8 @@ Flags: W
 HStem: 0 320<80 280 840 1040 1240 1440 2000 2200 2400 2600 3160 3360> 1520 360<1055.46 1628.94 2215.46 2788.94> 1520 320<80 280>
 VStem: 280 560<320 1261> 1440 560<320 1461.01> 2600 560<320 1461.01>
 CounterMasks: 1 1c
-AnchorPoint: "cedilla" 1724 80 basechar 0
-AnchorPoint: "top" 1720 1920 basechar 0
+AnchorPoint: "bottom0" 1724 80 basechar 0
+AnchorPoint: "top0" 1720 1920 basechar 0
 LayerCount: 2
 Fore
 SplineSet

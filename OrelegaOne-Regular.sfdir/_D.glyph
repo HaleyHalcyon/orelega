@@ -5,8 +5,8 @@ VWidth: 0
 Flags: W
 HStem: 0 320<120 440 1080 1709.08> 2160 320<120 440 1080 1711.09>
 VStem: 440 640<320 2160> 2040 720<774.958 1705.04>
-AnchorPoint: "cedilla" 1404 80 basechar 0
-AnchorPoint: "top" 1440 2560 basechar 0
+AnchorPoint: "bottom0" 1404 80 basechar 0
+AnchorPoint: "top0" 1440 2560 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -27,5 +27,4 @@ SplineSet
  1080 320 l 1
  1400 320 l 2
 EndSplineSet
-Validated: 1
 EndChar

@@ -2,24 +2,26 @@ StartChar: u10470
 Encoding: 66672 66672 624
 Width: 1800
 UnlinkRmOvrlpSave: 1
-Flags: HW
+Flags: W
+AnchorPoint: "top0" 906 1920 basechar 0
+AnchorPoint: "bottom0" 1276 80 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-60 1840 m 5
- 820 1840 l 5
- 820 1063 l 5
- 1540 1256 l 5
- 1540 320 l 5
- 1740 320 l 5
- 1740 0 l 5
- 780 0 l 5
- 780 320 l 5
- 980 320 l 5
- 980 786 l 5
- 260 593 l 5
- 260 1520 l 5
- 60 1520 l 5
- 60 1840 l 5
+60 1840 m 1
+ 820 1840 l 1
+ 820 1063 l 1
+ 1540 1256 l 1
+ 1540 320 l 1
+ 1740 320 l 1
+ 1740 0 l 1
+ 780 0 l 1
+ 780 320 l 1
+ 980 320 l 1
+ 980 786 l 1
+ 260 593 l 1
+ 260 1520 l 1
+ 60 1520 l 1
+ 60 1840 l 1
 EndSplineSet
 EndChar

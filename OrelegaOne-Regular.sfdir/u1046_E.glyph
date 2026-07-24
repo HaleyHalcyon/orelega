@@ -2,6 +2,8 @@ StartChar: u1046E
 Encoding: 66670 66670 653
 Width: 1890
 Flags: HW
+AnchorPoint: "top0" 874 1920 basechar 0
+AnchorPoint: "bottom0" 860 80 basechar 0
 LayerCount: 2
 Fore
 SplineSet

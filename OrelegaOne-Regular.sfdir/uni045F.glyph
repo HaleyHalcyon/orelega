@@ -6,7 +6,7 @@ Flags: W
 HStem: 0 320<80 280 840 960 1320 1440 2000 2200> 0 100<960 1320> 1520 320<80 280 840 1040 1240 1440 2000 2200>
 VStem: 280 560<320 1520> 960 360<-530 100> 1440 560<320 1520>
 CounterMasks: 1 1c
-AnchorPoint: "top" 1150 1920 basechar 0
+AnchorPoint: "top0" 1150 1920 basechar 0
 LayerCount: 2
 Fore
 SplineSet

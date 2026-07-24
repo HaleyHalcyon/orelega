@@ -1,7 +1,8 @@
 StartChar: uni04D6
 Encoding: 1238 1238 550
 Width: 2480
-Flags: H
+HStem: 2640 280<1059.34 1420.66>
+VStem: 560 480<2937.69 3280> 1440 480<2937.69 3280>
 LayerCount: 2
 Fore
 Refer: 68 728 N 1 0 0 1 480 640 2

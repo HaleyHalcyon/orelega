@@ -2,8 +2,8 @@ StartChar: uni0414
 Encoding: 1044 1044 410
 Width: 2688
 Flags: HW
-AnchorPoint: "top" 1310 2560 basechar 0
-AnchorPoint: "cedilla" 1314 80 basechar 0
+AnchorPoint: "top0" 1310 2560 basechar 0
+AnchorPoint: "bottom0" 1314 80 basechar 0
 LayerCount: 2
 Fore
 SplineSet

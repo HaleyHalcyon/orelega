@@ -1,7 +1,8 @@
 StartChar: uni04DB
 Encoding: 1243 1243 555
 Width: 2096
-Flags: H
+HStem: 2002 640<317.115 758.885 1277.12 1718.88>
+VStem: 218 640<2101.12 2542.88> 1178 640<2101.12 2542.88>
 LayerCount: 2
 Fore
 Refer: 93 168 N 1 0 0 1 138 2 2

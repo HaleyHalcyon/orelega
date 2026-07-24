@@ -1,7 +1,8 @@
 StartChar: uni04AC
 Encoding: 1196 1196 532
 Width: 2520
-Flags: H
+HStem: -800 153<82.57 258.16>
+VStem: 20 510<-453 -216> 292 208<-453 -187>
 LayerCount: 2
 Fore
 Refer: 582 716 S 1 0 0 1 1460 0 2

@@ -3,9 +3,9 @@ Encoding: 1058 1058 424
 Width: 2520
 VWidth: 0
 Flags: HW
-AnchorPoint: "ogonek" 1900 80 basechar 0
-AnchorPoint: "top" 1280 2560 basechar 0
-AnchorPoint: "cedilla" 1244 80 basechar 0
+AnchorPoint: "ogonek0" 1900 80 basechar 0
+AnchorPoint: "top0" 1280 2560 basechar 0
+AnchorPoint: "bottom0" 1244 80 basechar 0
 LayerCount: 2
 Fore
 SplineSet

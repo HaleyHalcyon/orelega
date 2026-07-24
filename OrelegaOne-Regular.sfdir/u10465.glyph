@@ -2,7 +2,9 @@ StartChar: u10465
 Encoding: 66661 66661 608
 Width: 2000
 UnlinkRmOvrlpSave: 1
-Flags: HW
+Flags: W
+AnchorPoint: "bottom0" 984 80 basechar 0
+AnchorPoint: "top0" 1058 1914 basechar 0
 LayerCount: 2
 Fore
 SplineSet

@@ -5,9 +5,9 @@ VWidth: 0
 Flags: HW
 HStem: -52 332<881.817 1472.7> 800 320<704.805 1411.09> 1560 320<839.061 1277.94>
 VStem: 100 597.947<491.52 800 1120 1326.57>
-AnchorPoint: "top" 1080 1920 basechar 0
-AnchorPoint: "cedilla" 1124 80 basechar 0
-AnchorPoint: "ogonek" 1560 80 basechar 0
+AnchorPoint: "top0" 1080 1920 basechar 0
+AnchorPoint: "bottom0" 1124 80 basechar 0
+AnchorPoint: "ogonek0" 1560 80 basechar 0
 LayerCount: 2
 Fore
 SplineSet

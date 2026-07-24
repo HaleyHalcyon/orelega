@@ -2,9 +2,12 @@ StartChar: uni018E
 Encoding: 398 398 403
 Width: 2480
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 0 320<607.84 1400 2040 2360> 1200 320<1040 1400> 2160 320<567.84 1400 2040 2360>
+VStem: 160 360<1680 2130.52> 200 360<349.48 800> 720 320<840 1200 1520 1880> 1400 640<320 1200 1520 2160>
+AnchorPoint: "bottom0" 1278 80 basechar 0
+AnchorPoint: "top0" 1234 2560 basechar 0
 LayerCount: 2
 Fore
 Refer: 37 69 N -1 0 0 -1 2480 2480 2
-Validated: 1
 EndChar

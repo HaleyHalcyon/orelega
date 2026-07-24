@@ -6,9 +6,9 @@ UnlinkRmOvrlpSave: 1
 Flags: W
 HStem: -640 950<870 1430> -640 320<670 870 1430 1630> 0 21G<927.211 1368.79> 1520 320<80 268 871 1200 1400 1680 2028 2240>
 VStem: 870 560<-320 310>
-AnchorPoint: "top" 1130 1920 basechar 0
-AnchorPoint: "cedilla" 1924 80 basechar 0
-AnchorPoint: "ogonek" 1920 80 basechar 0
+AnchorPoint: "top0" 1130 1920 basechar 0
+AnchorPoint: "bottom0" 1924 80 basechar 0
+AnchorPoint: "ogonek0" 1920 80 basechar 0
 LayerCount: 2
 Fore
 SplineSet

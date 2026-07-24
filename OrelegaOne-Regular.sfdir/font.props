@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1571294646
-ModificationTime: 1784804277
+ModificationTime: 1784877049
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -44,8 +44,10 @@ OS2FamilyClass: 1025
 OS2Vendor: 'Ukyo'
 Lookup: 1 0 0 "Duck Substitution" { "Duct"  } []
 Lookup: 4 0 1 "'liga' Default ligatures" { "'liga' +ahluljBuVAhbVwAA in +MOkwxjDzZYdbVwAA lookup 0-1"  } ['liga' ('DFLT' <'NLD ' 'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > 'shaw' <'dflt' > ) ]
+Lookup: 4 0 1 "'rlig' shavian ligatures" { "'rlig' shavian ligatures-1"  } ['rlig' ('DFLT' <'NLD ' 'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' 'nld ' > 'osma' <'dflt' > 'shaw' <'dflt' > ) ]
 Lookup: 4 0 1 "'locl' Dutch IJ and ij" { "Dutch IJ/ij ligatures-1"  } ['locl' ('latn' <'nld ' > ) ]
 Lookup: 6 0 0 "'calt' Ducking letters" { "duck j after j"  "duck j after desc"  "duck f before f"  "duck f before asc"  } ['calt' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' 'nld ' > 'shaw' <'dflt' > ) ]
+Lookup: 260 0 0 "'mark' Mark Positioning lookup 2" { "'mark' Mark Positioning lookup 2-1"  } ['mark' ('DFLT' <'NLD ' 'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' 'nld ' > 'shaw' <'dflt' > ) ]
 Lookup: 258 0 0 "'kern' +aipm+DBNMKsw/DDLMPMwsAAA in +MOkwxjDzZYdbVwAA lookup 0" { "'kern' +aipm+DBNMKsw/DDLMPMwsAAA in +MOkwxjDzZYdbVwAA lookup 0-3" [614,0,2] "'kern' +aipm+DBNMKsw/DDLMPMwsAAA in +MOkwxjDzZYdbVwAA lookup 0-2" [614,0,2] "'kern' +aipm+DBNMKsw/DDLMPMwsAAA in +MOkwxjDzZYdbVwAA lookup 0-1" [614,0,2] } ['kern' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' 'nld ' > 'shaw' <'dflt' > ) ]
 Lookup: 260 0 0 "'mark' +MN4w/DCvMG5PTX9uYwdbmgAA lookup 1" { "'mark' +MN4w/DCvMG5PTX9uYwdbmgAA lookup 1-1"  } ['mark' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' 'nld ' > 'shaw' <'dflt' > ) ]
 MarkAttachClasses: 1
@@ -262,7 +264,7 @@ KernClass2: 39 32 "'kern' +aipm+DBNMKsw/DDLMPMwsAAA in +MOkwxjDzZYdbVwAA lookup 
  232 b c e o p ae ccedilla egrave eacute ecircumflex edieresis ograve oacute ocircumflex otilde odieresis oslash thorn cacute ccircumflex cdotaccent ccaron emacron ebreve edotaccent eogonek omacron obreve ohungarumlaut oe uni0259 uniE103
  121 d l igrave iacute icircumflex idieresis dcaron dcroat itilde imacron ibreve iogonek lacute uni013C lslash uniFB02 uniFB04
  17 f uniE10E uniFB00
- 138 g j gcircumflex gbreve gdotaccent uni0123 ij jcircumflex eng uni0237 uni0292 uniE101 uniE105 uniE10F dotlessj.calt j.calt jcircumflex.calt
+ 135 g j gcircumflex gbreve gdotaccent uni0123 ij jcircumflex eng uni0237 uni0292 uniE101 uniE105 uniE10F dotlessj.calt uniE111juniE112.calt
  1 q
  23 r racute uni0157 rcaron
  21 t uni0163 tcaron tbar
@@ -294,7 +296,7 @@ KernClass2: 39 32 "'kern' +aipm+DBNMKsw/DDLMPMwsAAA in +MOkwxjDzZYdbVwAA lookup 
  1 b
  167 f longs uniE100 uniE101 uniE102 uniE103 uniE104 uniE105 uniE106 uniE107 uniE108 uniE109 uniE10A uniE10B uniE10C uniE10D uniE10E uniFB00 uniFB01 uniFB02 uniFB03 uniFB04
  51 g gcircumflex gbreve gdotaccent uni0123 eng uni0292
- 59 j jcircumflex uni0237 dotlessj.calt j.calt jcircumflex.calt
+ 56 j jcircumflex uni0237 dotlessj.calt uniE111juniE112.calt
  1 p
  44 s sacute scircumflex scedilla scaron uni0219
  29 t uni0163 tcaron tbar uni021B
@@ -359,11 +361,11 @@ ChainSub2: class "duck j after j" 2 2 2 1
 EndFPST
 ChainSub2: class "duck j after desc" 3 3 3 1
   Class: 21 j jcircumflex uni0237
-  Class: 366 parenleft parenright at Q bracketleft bracketright underscore g q braceleft braceright exclamdown brokenbar paragraph ccedilla Aogonek aogonek Eogonek eogonek gcircumflex gbreve gdotaccent uni0123 Iogonek iogonek ij uni013C Eng eng scedilla uni0163 Uogonek uogonek uni01EA uni01EB uni0219 uni021B uni0292 uniE101 uniE105 uniE10D dotlessj.calt j.calt jcircumflex.calt
+  Class: 363 parenleft parenright at Q bracketleft bracketright underscore g q braceleft braceright exclamdown brokenbar paragraph ccedilla Aogonek aogonek Eogonek eogonek gcircumflex gbreve gdotaccent uni0123 Iogonek iogonek ij uni013C Eng eng scedilla uni0163 Uogonek uogonek uni01EA uni01EB uni0219 uni021B uni0292 uniE101 uniE105 uniE10D dotlessj.calt uniE111juniE112.calt
   BClass: 21 j jcircumflex uni0237
-  BClass: 366 parenleft parenright at Q bracketleft bracketright underscore g q braceleft braceright exclamdown brokenbar paragraph ccedilla Aogonek aogonek Eogonek eogonek gcircumflex gbreve gdotaccent uni0123 Iogonek iogonek ij uni013C Eng eng scedilla uni0163 Uogonek uogonek uni01EA uni01EB uni0219 uni021B uni0292 uniE101 uniE105 uniE10D dotlessj.calt j.calt jcircumflex.calt
+  BClass: 363 parenleft parenright at Q bracketleft bracketright underscore g q braceleft braceright exclamdown brokenbar paragraph ccedilla Aogonek aogonek Eogonek eogonek gcircumflex gbreve gdotaccent uni0123 Iogonek iogonek ij uni013C Eng eng scedilla uni0163 Uogonek uogonek uni01EA uni01EB uni0219 uni021B uni0292 uniE101 uniE105 uniE10D dotlessj.calt uniE111juniE112.calt
   FClass: 21 j jcircumflex uni0237
-  FClass: 366 parenleft parenright at Q bracketleft bracketright underscore g q braceleft braceright exclamdown brokenbar paragraph ccedilla Aogonek aogonek Eogonek eogonek gcircumflex gbreve gdotaccent uni0123 Iogonek iogonek ij uni013C Eng eng scedilla uni0163 Uogonek uogonek uni01EA uni01EB uni0219 uni021B uni0292 uniE101 uniE105 uniE10D dotlessj.calt j.calt jcircumflex.calt
+  FClass: 363 parenleft parenright at Q bracketleft bracketright underscore g q braceleft braceright exclamdown brokenbar paragraph ccedilla Aogonek aogonek Eogonek eogonek gcircumflex gbreve gdotaccent uni0123 Iogonek iogonek ij uni013C Eng eng scedilla uni0163 Uogonek uogonek uni01EA uni01EB uni0219 uni021B uni0292 uniE101 uniE105 uniE10D dotlessj.calt uniE111juniE112.calt
  1 1 0
   ClsList: 1
   BClsList: 2
@@ -376,12 +378,13 @@ ChainSub2: class "duck j after desc" 3 3 3 1
 EndFPST
 LangName: 1033 "" "" "" "" "" "" "" "" "" "" "" "" "" "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" "http://scripts.sil.org/OFL"
 Encoding: UnicodeFull
+Compacted: 1
 UnicodeInterp: none
 NameList: AGL For New Fonts
-DisplaySize: -72
+DisplaySize: -36
 AntiAlias: 1
-FitToEm: 0
-WinInfo: 57592 8 6
+FitToEm: 1
+WinInfo: 442 17 13
 BeginPrivate: 3
 BlueValues 27 [-46 0 1840 1874 2480 2520]
 OtherBlues 11 [-640 -640]
@@ -401,5 +404,5 @@ Grid
   Named: "Cap Height (FLAT)"
 EndSplineSet
 TeXData: 1 0 0 346030 173015 115343 0 0 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-AnchorClass2: "top"""  "top"""  "ogonek" "'mark' +MN4w/DCvMG5PTX9uYwdbmgAA lookup 1-1" "cedilla" "'mark' +MN4w/DCvMG5PTX9uYwdbmgAA lookup 1-1" "top" "'mark' +MN4w/DCvMG5PTX9uYwdbmgAA lookup 1-1"
+AnchorClass2: "ogonek0" "'mark' Mark Positioning lookup 2-1" "bottom0" "'mark' Mark Positioning lookup 2-1" "top0" "'mark' Mark Positioning lookup 2-1" "top"""  "top"""  "ogonek" "'mark' +MN4w/DCvMG5PTX9uYwdbmgAA lookup 1-1" "cedilla" "'mark' +MN4w/DCvMG5PTX9uYwdbmgAA lookup 1-1" "top" "'mark' +MN4w/DCvMG5PTX9uYwdbmgAA lookup 1-1"
 EndSplineFont

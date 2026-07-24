@@ -2,9 +2,11 @@ StartChar: uni0408
 Encoding: 1032 1032 476
 Width: 2260
 VWidth: 0
-Flags: HW
-AnchorPoint: "top" 1460 2560 basechar 0
-AnchorPoint: "cedilla" 944 80 basechar 0
+Flags: W
+HStem: -40 320<454.478 990.363> 320 320<183 360> 2160 320<760 1160 1800 2120>
+VStem: 40 320<463 640> 40 640<463 860.885> 1160 640<449.219 2160>
+AnchorPoint: "top0" 1460 2560 basechar 0
+AnchorPoint: "bottom0" 944 80 basechar 0
 LayerCount: 2
 Fore
 Refer: 42 74 N 1 0 0 1 0 0 2

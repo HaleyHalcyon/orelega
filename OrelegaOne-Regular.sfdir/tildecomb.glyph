@@ -2,10 +2,11 @@ StartChar: tildecomb
 Encoding: 771 771 512
 Width: 0
 VWidth: 0
-Flags: HW
-AnchorPoint: "top" -870 1920 mark 0
+Flags: W
+HStem: 1984 640<-1572.94 -1190.64 -561.69 -175.99>
+VStem: -1660 560<2069.55 2292.17> -644 560<2323.83 2546.45>
+AnchorPoint: "top0" -870 1920 mark 0
 LayerCount: 2
 Fore
-Refer: 70 732 S 1 0 0 1 -1740 0 2
-Validated: 1
+Refer: 70 732 N 1 0 0 1 -1740 0 2
 EndChar

@@ -2,13 +2,15 @@ StartChar: uni04F6
 Encoding: 1270 1270 583
 Width: 2400
 VWidth: 0
-Flags: HW
-AnchorPoint: "top" 560 2560 basechar 0
-AnchorPoint: "cedilla" 604 80 basechar 0
+Flags: W
+HStem: -800 153<-177.43 -1.84> 0 320<120 440 1080 1640> 2160 320<120 440 1080 1872.16>
+VStem: -240 510<-453 -216> 32 208<-453 -187> 440 640<320 2160> 1920 360<1680 2130.52>
+AnchorPoint: "bottom0" 764 80 basechar 0
+AnchorPoint: "top0" 1240 2560 basechar 0
+AnchorPoint: "ogonek0" 1640 80 basechar 0
 LayerCount: 2
 Fore
 Refer: 582 716 N 1 0 0 1 1200 0 2
 Refer: 409 1043 N 1 0 0 1 0 0 3
-Validated: 5
 Decomposition: "+BBMDRQAA"
 EndChar

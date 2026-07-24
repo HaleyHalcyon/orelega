@@ -2,9 +2,9 @@ StartChar: uni0424
 Encoding: 1060 1060 426
 Width: 2960
 Flags: HW
-AnchorPoint: "ogonek" 2120 80 basechar 0
-AnchorPoint: "top" 1530 2560 basechar 0
-AnchorPoint: "cedilla" 1494 80 basechar 0
+AnchorPoint: "ogonek0" 2120 80 basechar 0
+AnchorPoint: "top0" 1530 2560 basechar 0
+AnchorPoint: "bottom0" 1494 80 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -44,5 +44,4 @@ SplineSet
  2160 1440 2080 1600 1880 1600 c 2
  1800 1600 l 1
 EndSplineSet
-Validated: 1
 EndChar

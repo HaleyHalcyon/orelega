@@ -2,7 +2,11 @@ StartChar: uni04E1
 Encoding: 1249 1249 561
 Width: 1920
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: -800 320<554.676 1079.71> -640 21G<282.5 437.5> 1520 320<440 1008>
+VStem: 80 560<-402.724 -157.186> 120 320<1040 1520> 1240 600<-314.515 392.521>
+AnchorPoint: "top0" 948 1920 basechar 0
+AnchorPoint: "bottom0" 954 -628 basechar 0
 LayerCount: 2
 Fore
 Refer: 288 658 N 1 0 0 1 0 0 2

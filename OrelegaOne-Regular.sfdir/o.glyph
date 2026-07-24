@@ -5,9 +5,9 @@ VWidth: 0
 Flags: W
 HStem: -46 320<835.366 1277.2> 1554 320<835.366 1277.2>
 VStem: 100 594<491.896 1336.1> 1422 595<494.072 1333.93>
-AnchorPoint: "ogonek" 1500 80 basechar 0
-AnchorPoint: "cedilla" 1064 80 basechar 0
-AnchorPoint: "top" 1058 1914 basechar 0
+AnchorPoint: "ogonek0" 1500 80 basechar 0
+AnchorPoint: "bottom0" 1064 80 basechar 0
+AnchorPoint: "top0" 1058 1914 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -22,5 +22,4 @@ SplineSet
  1285 274 1422 439 1422 914 c 0
  1422 1389 1285 1554 1058 1554 c 3
 EndSplineSet
-Validated: 1
 EndChar

@@ -2,8 +2,13 @@ StartChar: uni04D5
 Encoding: 1237 1237 549
 Width: 3181
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: -46 320<718.626 1186.84 1976.26 2552.56> 722 279<486.5 1217.43> 800 320<1485 1620 1700 2506> 908 212<2506 2580> 1566 314<669.247 1115.86 1931.98 2357.97>
+VStem: 80 599<308.622 689.606> 134 640<1179.12 1456.72> 1380 398<381.5 1446.5> 1485 135<800 840> 1485 215<1000 1108.76>
+AnchorPoint: "ogonek0" 2605 80 basechar 0
+AnchorPoint: "bottom0" 1577 80 basechar 0
+AnchorPoint: "top0" 1533 1920 basechar 0
 LayerCount: 2
 Fore
-Refer: 285 230 S 1 0 0 1 0 0 2
+Refer: 285 230 N 1 0 0 1 0 0 2
 EndChar

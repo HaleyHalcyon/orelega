@@ -2,7 +2,10 @@ StartChar: u10475
 Encoding: 66677 66677 619
 Width: 2320
 UnlinkRmOvrlpSave: 1
-Flags: HW
+Flags: W
+HStem: 0 320<80 292 640 920 1120 1449 2052 2240> 1819 21G<951.21 1392.79>
+AnchorPoint: "top0" 1210 1920 basechar 0
+AnchorPoint: "bottom0" 1164 80 basechar 0
 LayerCount: 2
 Fore
 Refer: 95 118 N -1 0 0 -1 2320 1840 3

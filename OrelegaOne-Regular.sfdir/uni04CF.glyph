@@ -2,9 +2,10 @@ StartChar: uni04CF
 Encoding: 1231 1231 543
 Width: 1120
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 0 320<80 280 840 1040> 2160 320<80 280>
+VStem: 280 560<320 2160>
 LayerCount: 2
 Fore
 Refer: 90 108 S 1 0 0 1 0 0 2
-Validated: 1
 EndChar

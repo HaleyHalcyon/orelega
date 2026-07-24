@@ -2,11 +2,11 @@ StartChar: uni0434
 Encoding: 1076 1076 442
 Width: 2140
 UnlinkRmOvrlpSave: 1
-Flags: HW
+Flags: W
 HStem: 0 320<618 1330> 1520 320<296 476 838 1330> 1520 50<476 838>
 VStem: 49.9996 320<-480 0> 476 362<539.116 1570> 1330 560<320 1520> 1770 320<-480 0>
-AnchorPoint: "top" 1140 1920 basechar 0
-AnchorPoint: "cedilla" 1124 80 basechar 0
+AnchorPoint: "top0" 1140 1920 basechar 0
+AnchorPoint: "bottom0" 1124 80 basechar 0
 LayerCount: 2
 Fore
 SplineSet

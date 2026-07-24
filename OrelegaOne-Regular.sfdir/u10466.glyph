@@ -3,7 +3,11 @@ Encoding: 66662 66662 609
 Width: 1120
 VWidth: 0
 UnlinkRmOvrlpSave: 1
-Flags: HW
+Flags: W
+HStem: 0 320<80 280 840 1040> 1520 320<80 280>
+VStem: 280 560<320 1520>
+AnchorPoint: "top0" 562 1920 basechar 0
+AnchorPoint: "bottom0" 577 80 basechar 0
 LayerCount: 2
 Fore
 Refer: 78 305 N 1 0 0 1 0 0 2
