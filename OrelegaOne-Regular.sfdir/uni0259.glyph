@@ -4,7 +4,7 @@ Width: 2096
 VWidth: 0
 Flags: HW
 AnchorPoint: "ogonek0" 1450 80 basechar 0
-AnchorPoint: "cedilla0" 1014 80 basechar 0
+AnchorPoint: "bottom0" 1014 80 basechar 0
 AnchorPoint: "top0" 1008 1914 basechar 0
 LayerCount: 2
 Fore
