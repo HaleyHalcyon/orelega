@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1571294646
-ModificationTime: 1784877049
+ModificationTime: 1784877338
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -49,7 +49,6 @@ Lookup: 4 0 1 "'locl' Dutch IJ and ij" { "Dutch IJ/ij ligatures-1"  } ['locl' ('
 Lookup: 6 0 0 "'calt' Ducking letters" { "duck j after j"  "duck j after desc"  "duck f before f"  "duck f before asc"  } ['calt' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' 'nld ' > 'shaw' <'dflt' > ) ]
 Lookup: 260 0 0 "'mark' Mark Positioning lookup 2" { "'mark' Mark Positioning lookup 2-1"  } ['mark' ('DFLT' <'NLD ' 'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' 'nld ' > 'shaw' <'dflt' > ) ]
 Lookup: 258 0 0 "'kern' +aipm+DBNMKsw/DDLMPMwsAAA in +MOkwxjDzZYdbVwAA lookup 0" { "'kern' +aipm+DBNMKsw/DDLMPMwsAAA in +MOkwxjDzZYdbVwAA lookup 0-3" [614,0,2] "'kern' +aipm+DBNMKsw/DDLMPMwsAAA in +MOkwxjDzZYdbVwAA lookup 0-2" [614,0,2] "'kern' +aipm+DBNMKsw/DDLMPMwsAAA in +MOkwxjDzZYdbVwAA lookup 0-1" [614,0,2] } ['kern' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' 'nld ' > 'shaw' <'dflt' > ) ]
-Lookup: 260 0 0 "'mark' +MN4w/DCvMG5PTX9uYwdbmgAA lookup 1" { "'mark' +MN4w/DCvMG5PTX9uYwdbmgAA lookup 1-1"  } ['mark' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' 'nld ' > 'shaw' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
 KernClass2: 37 38 "'kern' +aipm+DBNMKsw/DDLMPMwsAAA in +MOkwxjDzZYdbVwAA lookup 0-3"
@@ -404,5 +403,5 @@ Grid
   Named: "Cap Height (FLAT)"
 EndSplineSet
 TeXData: 1 0 0 346030 173015 115343 0 0 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-AnchorClass2: "ogonek0" "'mark' Mark Positioning lookup 2-1" "bottom0" "'mark' Mark Positioning lookup 2-1" "top0" "'mark' Mark Positioning lookup 2-1" "top"""  "top"""  "ogonek" "'mark' +MN4w/DCvMG5PTX9uYwdbmgAA lookup 1-1" "cedilla" "'mark' +MN4w/DCvMG5PTX9uYwdbmgAA lookup 1-1" "top" "'mark' +MN4w/DCvMG5PTX9uYwdbmgAA lookup 1-1"
+AnchorClass2: "ogonek0" "'mark' Mark Positioning lookup 2-1" "bottom0" "'mark' Mark Positioning lookup 2-1" "top0" "'mark' Mark Positioning lookup 2-1" "top"""  "top""" 
 EndSplineFont

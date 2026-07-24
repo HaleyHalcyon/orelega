@@ -3,7 +3,7 @@ Encoding: 1107 1107 485
 Width: 1800
 HStem: 1996 640
 VStem: 451.5 897
-AnchorPoint: "ogonek" 1280 80 basechar 0
+AnchorPoint: "ogonek0" 1280 80 basechar 0
 LayerCount: 2
 Fore
 Refer: 391 769 N 1 0 0 1 1428.5 -4 2

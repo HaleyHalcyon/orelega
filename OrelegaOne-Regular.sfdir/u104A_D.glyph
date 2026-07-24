@@ -1,7 +1,7 @@
 StartChar: u104AD
 Encoding: 66733 66733 659
 Width: 1820
-Flags: HWO
+Flags: HW
 AnchorPoint: "top0" 1380 1920 basechar 0
 AnchorPoint: "bottom0" 764 -576 basechar 0
 LayerCount: 2
