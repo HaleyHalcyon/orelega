@@ -1,0 +1,16 @@
+StartChar: uni20B5
+Encoding: 8373 8373 671
+Width: 2520
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+1235 2640 m 5
+ 1555 2640 l 5
+ 1555 -160 l 5
+ 1235 -160 l 5
+ 1235 2640 l 5
+EndSplineSet
+Refer: 35 67 N 1 0 0 1 -16 0 3
+EndChar

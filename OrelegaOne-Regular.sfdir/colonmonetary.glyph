@@ -1,0 +1,21 @@
+StartChar: colonmonetary
+Encoding: 8353 8353 662
+Width: 2520
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+1610 2640 m 5
+ 1882 2640 l 5
+ 1258 -160 l 5
+ 986 -160 l 5
+ 1610 2640 l 5
+1194 2640 m 5
+ 1466 2640 l 5
+ 842 -160 l 5
+ 570 -160 l 5
+ 1194 2640 l 5
+EndSplineSet
+Refer: 35 67 N 1 0 0 1 -16 0 3
+EndChar

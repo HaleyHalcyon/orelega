@@ -7,11 +7,11 @@ VStem: 140 320<-800 2640>
 LayerCount: 2
 Fore
 SplineSet
-460 -800 m 1
- 140 -800 l 1
+460 -800 m 5
+ 140 -800 l 5
  140 2640 l 5
  460 2640 l 5
- 460 -800 l 1
+ 460 -800 l 5
 EndSplineSet
 Validated: 1
 EndChar
