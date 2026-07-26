@@ -6,11 +6,11 @@
   <title>Orelega font</title>=
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Pacifico&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100..900&family=Pacifico&display=swap" rel="stylesheet">
   <style>
     @font-face {
       font-family: "_Orelega";
-      src: url("./Orelega-Bold.woff2");
+      src: url("./OrelegaOne-Regular.woff2");
     }
     html, body {
       font-family: "_Orelega", serif;
@@ -19,6 +19,12 @@
       height: 100dvh;
       position: relative;
       overflow: hidden;
+    }
+    h3 {
+      font-family: "_Orelega", serif;
+      font-weight: 400;
+      font-size: 3rem;
+      margin: 0;
     }
     #scroller {
       position: absolute;
@@ -44,7 +50,8 @@
       background-position: center;
     }
     #tradwifeLang, #tradwifeLangSel {
-      font-family: "Oswald";
+      font-family: "Libre Franklin";
+      font-weight: 700;
       font-size: 1.15rem;
     }
 
@@ -84,6 +91,43 @@
       transform-origin: -20% 80%;
       animation: 600ms 0ms infinite alternate both ease-in-out bounceZoom;
     }
+    #bunnyLetters {
+      position: relative;
+      width: 100%;
+      height: 100svh;
+      font-size: calc(32svw + 32svh);
+      line-height: 1.0;
+    }
+    #bunnyLetters > span {
+      position: absolute;
+      mix-blend-mode: multiply;
+      transform: translate(-50%, -50%);
+    }
+    #bunnyLetters .r {color: oklch(83.056% 0.09414 19.202);}
+    #bunnyLetters .y {color: oklch(89.921% 0.13499 108.852);}
+    #bunnyLetters .g {color: oklch(83.421% 0.12402 144.399);}
+    #bunnyLetters .b {color: oklch(79.013% 0.07859 278.793);}
+    #scrollIndicator {
+      position: absolute;
+      right: 1rem;
+      bottom: 1rem;
+      font-size: 2rem;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      align-items: baseline;
+      padding: 0.25rem;
+      border-radius: 0.25rem;
+      gap: 0.25rem;
+      border-radius: 0.25rem;
+      background-color: rgb(255 255 255 / 0.75);
+      color: black;
+    }
+    #scrollIndicator > .scrollText {
+      text-transform: uppercase;
+      font-size: 1.5rem;
+    }
+
     #logotype > .relativizer > .sub {
       width: 18.75%;
       right: 9.7%;
@@ -132,6 +176,94 @@
     #heardExample > p {
       margin: 0 0.25em;
     }
+    #portraitAnime {
+      position: absolute;
+      height: 100svh;
+      width: auto;
+      left: calc(25vw - 50vh);
+      bottom: 0;
+    }
+    .littleG {
+      position: absolute;
+      right: calc(50vw - 20vh);
+      font-size: 120svh;
+      line-height: 100svh;
+      color: oklch(42% 0.04565 71.143 / 0.25);
+    }
+    #portraitBnuuy {
+      position: absolute;
+      height: 100svh;
+      width: auto;
+      right: calc(5vw - 10vh);
+      bottom: 0;
+    }
+    #features {
+      background: linear-gradient(
+        oklch(67.37% 0.11729 4.646),
+        oklch(50.319% 0.11591 1.882)
+      );
+    }
+    #name {
+      background: linear-gradient(
+        oklch(68.559% 0.10822 156.378),
+        oklch(42.474% 0.06962 160.002)
+      );
+    }
+    .bodyText {
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      justify-content: end;
+      inset: 0 0 0 40vw;
+      padding: 1rem;
+      text-align: left;
+      font-size: 1.0rem;
+      overflow-y: auto;
+      font-family: "Libre Franklin", serif;
+      font-weight: 500;
+      color: white;
+      text-shadow:
+      0px 1px 1px black,
+      0px 1px 2px black,
+      0px 1px 4px black,
+      0px 1px 8px black;
+    }
+    .bodyText p {
+      margin: 0.5em 0;
+    }
+    .bodyText blockquote {
+      margin-left: 0;
+      padding-left: 8px;
+      border-left: 4px solid currentColor;
+    }
+    #features .bodyText {
+      inset: 0 40vw 0 0;
+    }
+    #name .bodyText {
+      inset: 0 0 0 40vw;
+    }
+    #download {
+      font-family: "Libre Franklin", serif;
+      font-weight: 600;
+      text-align: left;
+      font-size: 1rem;
+      background: radial-gradient(
+        oklab(100% 0 0), oklab(85% 0 0)
+      );
+    }
+    #download a {
+      color: oklch(48.82% 0.10 246);
+    }
+    #download a:visited {
+      color: oklch(48.82% 0.10 300);
+    }
+    #download > div {
+      position: relative;
+      width: fit-content;
+      padding: 2rem;
+      max-height: 100svh;
+      overflow-y: auto;
+    }
 
     /* portrait orientation only */
     #bunny {
@@ -148,6 +280,18 @@
       width: 80vw;
       height: 30vw;
     }
+    #l00 {left:5svw; top:12svh;}
+    #l01 {left:14svw; top:96svh;}
+    #l02 {left:25svw; top:-17svh;}
+    #l03 {left:10svw; top:26svh;}
+    #l04 {left:8svw; top:54svh;}
+    #l05 {left:45svw; top:15svh;}
+    #l06 {left:50svw; top:55svh;}
+    #l07 {left:63svw; top:-4svh;}
+    #l08 {left:80svw; top:60svh;}
+    #l09 {left:50svw; top:98svh;}
+    #l10 {left:83svw; top:13svh;}
+    #l11 {left:105svw; top:80svh;}
     #tradwifePortrait {
       position: absolute;
       inset: auto calc(75vw - 31.25svh) 0 auto;
@@ -182,22 +326,24 @@
         width: min(64vw, 160vh);
         height: min(24vw, 60vh);
       }
+      #l00 {left:3svw; top:24svh;}
+      #l01 {left:7svw; top:78svh;}
+      #l02 {left:25svw; top:-17svh;}
+      #l03 {left:35svw; top:24svh;}
+      #l04 {left:31svw; top:52svh;}
+      #l05 {left:55svw; top:6svh;}
+      #l06 {left:60svw; top:67svh;}
+      #l07 {left:67svw; top:-4svh;}
+      #l08 {left:80svw; top:60svh;}
+      #l09 {left:75svw; top:112svh;}
+      #l10 {left:90svw; top:-13svh;}
+      #l11 {left:105svw; top:74svh;}
       #tradwifeText {
         --w: 70svh;
       }
     }
   </style>
   <script>
-    // TODO:
-    // - es-419 currency symbols
-    // - isv-Latn Ȯȯ
-    // - nl Ĳ with combining acute
-    // - nv combining acutes on ogonek letters
-    // - ru ruble
-    // - ru combining acutes on vowels
-    // - tr turkish lira
-    // - uk hryvnia
-    // ₡₲ȮȯĲ́Ą́Ę́Į́Ǫ́ą́ę́įǫ́А́Е́И́О́У́Ы́Э́Ю́Я́а́е́и́о́у́ы́э́ю́я́₺₴
 const s = {
   "bg": ["„Не си ли чувала за шрифта ", "’Орелега’", "?“", "АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЬЮЯ абвгдежзийклмнопрстуфхцчшщъьюя лв. 0123456789 ,.;:!?“-‘–’—”"],
   "cs": ["„Ještě jsi neslyšela o písmu ", "‚Orelega‘", "?“", "AÁBCČDĎEÉĚFGHIÍJKLMNŇOÓPQRŘSŠTŤUÚŮVWXYÝZŽ aábcčdďeéěfghiíjklmnňoópqrřsštťuúůvwxyýzž Kč 0123456789 ,.;:!?„-‚–‘—“"],
@@ -234,7 +380,20 @@ function changeLang(event) {
 <body>
   <div id="scroller">
     <section id="hero">
-      <div id="bunnyLetters"></div>
+      <div id="bunnyLetters" role="presentation">
+        <span class="r" id="l00">&</span>
+        <span class="y" id="l01">í</span>
+        <span class="b" id="l02">5</span>
+        <span class="y" id="l03">ț</span>
+        <span class="b" id="l04">Q</span>
+        <span class="g" id="l05">ц</span>
+        <span class="y" id="l06">g</span>
+        <span class="r" id="l07">ą</span>
+        <span class="b" id="l08">б</span>
+        <span class="r" id="l09">õ</span>
+        <span class="y" id="l10">ç</span>
+        <span class="g" id="l11">ж</span>
+      </div>
       <div id="bunny">
         <div class="relativizer">
           <img class="main" src="img/bunny_portrait.svg" width="256" height="512" alt="">
@@ -246,6 +405,10 @@ function changeLang(event) {
           <img class="main" src="img/logotype.svg" width="320" height="120" alt="Orelega One">
           <img class="sub" src="img/logotype_action_lines.svg" width="64" height="64" alt="">
         </div>
+      </div>
+      <div id="scrollIndicator">
+        <div class="scrollArrow" role="presentation">↓</div>
+        <div class="scrollText">Scroll down...</div>
       </div>
     </section>
     <section id="tradwife">
@@ -284,8 +447,50 @@ function changeLang(event) {
           <div>font?”</div>
         </div>
         <div id="heardExample">
-          <p>ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz Noël façade piñata brûlée tiramisù Tromsø pączki Łukasz Žižek $ ¢ £ € 0123456789 ,.;:!?“-‘–’—”</p>          
+          <p>ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz Noël façade piñata brûlée tiramisù Tromsø pączki Łukasz Žižek $ ¢ £ € 0123456789 ,.;:!?“-‘–’—”</p>
         </div>
+      </div>
+    </section>
+    <section id="features">
+      <div class="relativizer">
+        <div class="littleG" role="presentation">
+          <span role="decoration">g</span>
+        </div>
+        <img src="./img/bnuuy_portrait.svg" alt="" id="portraitBnuuy">
+        <div class="bodyText">
+          <h3>Features</h3>
+          <p><strong>Orelega</strong> (pronounced in English: <a style="font-style:italic;color:currentColor;" href="https://en.wikipedia.org/wiki/Help:Pronunciation_respelling_key"><span style="text-transform:lowercase;font-variant:small-caps;">OR</span>-ə-<span style="text-transform:lowercase;font-variant:small-caps;font-weight:bold;">LAY</span>-gə</a>) is a heavy slab-serif font with a large “ear”—which is, typographically speaking, the stroke on the top right of the lowercase “g”. Orelega’s exaggerated, antenna-like ear seems to perk up to hear what you just said. Other glyphs have similarly large ball terminals, such as “c”, “f”, “G”, “J”, “Q”, “r”, “y”, “2”, “5”, “$”, “£”, “€”, and “&”. Orelega blends the time-tested dignity of Clarendon with playful features, reminiscent of children’s picture books frequented by Century Schoolbook.</p>
+        </div>
+      </div>
+    </section>
+    <section id="name">
+      <div class="relativizer">
+        <img src="./img/anime_portrait.svg" alt="" id="portraitAnime">
+        <div class="bodyText">
+          <h3>The name “Orelega”</h3>
+          <p>The Esperanto word <i lang="eo">orelega</i> means “with big ears”. The word has been used at least once “in the wild” to describe Bing Crosby, the singer of <i>White Christmas</i> fame.</p>
+          <blockquote>
+            <p><i lang="eo">“Dank’ al iu <strong>orelega</strong> kantistiĉo de la 1940-oj, iksmaso estas asociigita inter usonanoj kun multa neĝo.”</i></p>
+            <p>“Thanks to a certain male singer from the ’40s <strong>with big ears</strong>, Xmas is associated among US citizens with lots of snow.”</p>
+          </blockquote>
+          <p>The name was chosen to represent the big “ear” on the lowercase ⟨g⟩, while also containing the letter ⟨g⟩ itself.</p>
+        </div>
+      </div>
+    </section>
+    <section id="download">
+      <div>
+        <h3>Use It Now!</h3>
+        <ul>
+          <li><a href="https://fonts.google.com/specimen/Orelega+One">Use the stable version right now on Google Fonts</a></li>
+          <li><a href="https://github.com/haleyhalcyon/orelega">See the source code and download the latest revision on GitHub</a></li>
+        </ul>
+        <h3>Other Google Fonts used in this demo:</h3>
+        <ul>
+          <li style="font-size: 2rem; font-family: 'Libre Franklin', serif; font-weight: 700;"><a href="https://fonts.google.com/specimen/Libre+Franklin">Libre Franklin</a></li>
+          <li style="font-size: 2rem; font-family: 'Pacifico', serif; font-weight: 400;"><a href="https://fonts.google.com/specimen/Pacifico">Pacifico</a></li>
+        </ul>
+        <p>Orelega © 2026–Present UkiyoMoji Fonts (Haley Wakamatsu), published under Open Font License V1.1</p>
+        <p>Art and Web code created by <a href="https://2gd4.me">Haley Wakamatsu</a> without AI assistance</p>
       </div>
     </section>
   </div>
